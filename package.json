@@ -6,10 +6,13 @@
   "react-native": "src/index.ts",
   "types": "dist/index.d.ts",
   "files": [
+    "Package.swift",
     "android",
     "dist",
+    "include",
     "ios",
     "jest",
+    "spm-headers",
     "src",
     "RNLinearGradient.podspec"
   ],
@@ -57,5 +60,8 @@
         "RNLinearGradient": "RNLinearGradient"
       }
     }
+  },
+  "swiftpmConfig": {
+    "name": "RNLinearGradient"
   }
 }
